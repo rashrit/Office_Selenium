@@ -34,7 +34,7 @@ public class testSel {
 		Thread.sleep(3000);
 		driver.findElement(By.id("userEmail")).sendKeys("rashrit@cmsenergy.com");
 			
-		//driver.quit();
+		driver.quit();
 	
 
 	}
